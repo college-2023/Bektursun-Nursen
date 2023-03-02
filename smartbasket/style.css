@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=M+PLUS+1p:wght@300&family=Montserrat:wght@400;700&family=Mukta:wght@700&family=Poppins:wght@300&display=swap');
+
+body {
+	background: #CACACA;
+	background-image: url("img/Group\ 26.png");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+form .label{
+	text-align: left;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+	color: #626BBF;
+	
+}
+
+form input{
+	display: flex;
+	width: 93%;
+	padding: 10px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+	border: 0;
+    outline: 0;
+    border-bottom: 2px solid #696969;
+	margin-left: 12px;
+}
+form input:focus{
+	border-bottom: 3px solid #3248d5;
+}
+label {
+	color: #888;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+	color: #626BBF;
+}
+
+button {
+	float: right;
+	background: linear-gradient(91.74deg, #7E8DF2 23.76%, #8ABAFF 66.55%, #AB9DFF 104.82%);
+	padding: 15px 15px;
+	color: #fff;
+	border-radius: 25px;
+	margin-right: 10px;
+	border: none;
+	font-size: 17px;
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.icons_apps{
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+	margin-left: 26%;
+}
+.icons_apps .st_icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+form a, span{
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
